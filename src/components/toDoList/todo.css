@@ -1,0 +1,5 @@
+.todo-item{
+    display: flex;
+    font-color: chocolate;
+    font-size: 200px;
+}
