@@ -2,23 +2,23 @@ export const toDoList=[
 
     {
         id:"1",
-        name:"Pencil",
-        price:"7"
+        name:"SRC meeting",
+        completed:true
     },
     {
         id:"2",
-        name:"Pen",
-        price:"10"
+        name:"SL vs SA CWC 2019",
+        completed:false
     },
     {
         id:"3",
-        name:"Book",
-        price:"45"
+        name:"get loan",
+        completed:true
     },
     {
         id:"4",
-        name:"Pencil Box",
-        price:"28"
+        name:"client request",
+        completed:true
     }
 
 

@@ -16,6 +16,8 @@ import MyArray from "./components/Array/MyArray";
 
 import Product from "./components/ProductDataListWithArray/Product";
 import ProductApp from "./components/ProductDataListWithArray/ProductApp";
+import ClassBasedComponentApp from "./components/ClassBasedComponent/ClassBasedComponentApp";
+import GreetingApp from "./components/ClassBasedComponentPractise/GreetingApp";
 
 //======================================================================================================================
 //-----///\\\------->>>>> HELLO REACT JS :) <<<<<----------///\\\-------------------------------------------------------
@@ -123,8 +125,24 @@ ReactDOM.render(
 
 
 //Product data array List-----------------------------------------------------------------------------------------------
-//ProductDataList directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//ProductDataListWithArray directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // ReactDOM.render(
 // <ProductApp/>,document.getElementById("root")
 //
 // )
+
+
+
+//Class based components-----------------------------------------------------------------------------------------------
+//ClassBasedComponent directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// ReactDOM.render(
+// <ClassBasedComponentApp/>,document.getElementById("root")
+//
+// )
+
+//Class based components practise-----------------------------------------------------------------------------------------------
+//ClassBasedComponentPractise directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ReactDOM.render(
+    <GreetingApp/>,document.getElementById("root")
+
+)

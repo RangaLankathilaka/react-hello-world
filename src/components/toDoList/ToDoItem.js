@@ -8,7 +8,7 @@ function ToDoItem(props) {
         <div className="todo-item">
 
 
-            <input type="checkbox"/>
+            <input type="checkbox" checked={props.toDoList.completed}/>
             <p>{props.toDoList.name}</p>
 
         </div>
