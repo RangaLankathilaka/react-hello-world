@@ -18,6 +18,8 @@ import Product from "./components/ProductDataListWithArray/Product";
 import ProductApp from "./components/ProductDataListWithArray/ProductApp";
 import ClassBasedComponentApp from "./components/ClassBasedComponent/ClassBasedComponentApp";
 import GreetingApp from "./components/ClassBasedComponentPractise/GreetingApp";
+import StateApp from "./components/State/StateApp";
+import StatePractiseApp from "./components/State Practise/StatePractiseApp";
 
 //======================================================================================================================
 //-----///\\\------->>>>> HELLO REACT JS :) <<<<<----------///\\\-------------------------------------------------------
@@ -94,9 +96,9 @@ import GreetingApp from "./components/ClassBasedComponentPractise/GreetingApp";
 //to Do List------------------------------------------------------------------------------------------------------------
 //toDoList directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-ReactDOM.render(
-    <MyToDo/>,document.getElementById("root")
-)
+// ReactDOM.render(
+//     <MyToDo/>,document.getElementById("root")
+// )
 
 
 //Contact Card List-----------------------------------------------------------------------------------------------------
@@ -133,16 +135,28 @@ ReactDOM.render(
 
 
 
-//Class based components-----------------------------------------------------------------------------------------------
-//ClassBasedComponent directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//Class based components------------------------------------------------------------------------------------------------
+//ClassBasedComponent directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // ReactDOM.render(
 // <ClassBasedComponentApp/>,document.getElementById("root")
 //
 // )
 
-//Class based components practise-----------------------------------------------------------------------------------------------
-//ClassBasedComponentPractise directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//Class based components practise---------------------------------------------------------------------------------------
+//ClassBasedComponentPractise directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// ReactDOM.render(
+//     <GreetingApp/>,document.getElementById("root")
+//
+// )
+
+//State-----------------------------------------------------------------------------------------------------------------
+//State directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+//State Practise-----------------------------------------------------------------------------------------------------------------
+//StatePractise directry<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ReactDOM.render(
-    <GreetingApp/>,document.getElementById("root")
+    <StatePractiseApp/>,document.getElementById("root")
 
 )
+
